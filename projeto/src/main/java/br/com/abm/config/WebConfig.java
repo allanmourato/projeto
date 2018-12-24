@@ -22,8 +22,6 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 import br.com.abm.controller.PessoaController;
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 
-
-
 @Configuration
 @ComponentScan(basePackageClasses = { PessoaController.class })
 @EnableWebMvc
