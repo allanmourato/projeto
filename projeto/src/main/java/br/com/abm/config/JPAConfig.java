@@ -25,7 +25,7 @@ public class JPAConfig {
 	public DataSource dataSource() {
 		JndiDataSourceLookup dataSourceLookup = new JndiDataSourceLookup();
 		dataSourceLookup.setResourceRef(true);
-		return dataSourceLookup.getDataSource("jdbc/brewerDB");
+		return dataSourceLookup.getDataSource("jdbc/projetoDB");
 	}
 	
 	@Bean
